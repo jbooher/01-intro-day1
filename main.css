@@ -3,9 +3,17 @@ body {
 }
 
 header {
-  display: inline-block;
+  display: flex;
   color: white;
   text-shadow: 1px 1px black;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 5px solid black;
+  margin-bottom: 15px;
+}
+
+h1 {
+  margin:0;
 }
 
 a {
@@ -18,14 +26,6 @@ em {
   font-weight: bold;
 }
 
-h1 {
-  float: left;
-}
-
-nav {
-  float: right;
-}
-
 img {
   border-radius: 10%;
 }
@@ -36,7 +36,7 @@ img {
 }
 
 .columns p, .columns img {
-  padding: 5px 15px;
+  padding: 0 15px;
 }
 
 .column img {
