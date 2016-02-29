@@ -2,7 +2,7 @@ body {
   background-color: #ff1a1a;
 }
 
-header h1, header nav {
+header {
   display: inline-block;
   color: white;
   text-shadow: 1px 1px black;
