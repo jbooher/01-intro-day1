@@ -42,6 +42,9 @@ em {
 }
 
 img {
+  height: 300px;
+  width: 200px;
+  border: 5px solid black;
   border-radius: 10%;
 }
 
@@ -51,7 +54,7 @@ img {
 }
 
 .columns p, .columns img {
-  padding: 0 15px;
+  margin: 0 15px;
 }
 
 .column img {
