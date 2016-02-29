@@ -1,0 +1,53 @@
+body {
+  background-color: #ff1a1a;
+}
+
+header h1, header nav {
+  display: inline-block;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+em {
+  font-style: normal;
+  font-weight: bold;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+img {
+  border-radius: 10%;
+}
+
+.columns {
+  display: flex;
+  clear: both;
+}
+
+.columns p, .columns img {
+  padding: 5px 15px;
+}
+
+.column img {
+  flex-grow: 1.5;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
+
+footer a {
+  color: black;
+}
