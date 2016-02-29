@@ -1,5 +1,15 @@
-body {
+html, body {
   background-color: #ff1a1a;
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+}
+
+.main {
+  overflow:auto;
+	padding-bottom: 50px;
 }
 
 header {
@@ -13,7 +23,12 @@ header {
 }
 
 h1 {
+  font-size: 3em;
   margin:0;
+}
+
+nav {
+  font-size: 1.5rem;
 }
 
 a {
@@ -46,6 +61,19 @@ img {
 footer {
   text-align: center;
   color: white;
+  position: relative;
+	margin-top: -50px;
+	height: 50px;
+	clear:both;
+}
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;
 }
 
 footer a {
